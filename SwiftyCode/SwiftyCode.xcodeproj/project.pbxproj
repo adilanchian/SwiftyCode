@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA142581DE2848F0048D3EB /* DataContainerSingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA142571DE2848F0048D3EB /* DataContainerSingletonClass.swift */; };
+		DDA1425A1DE29D530048D3EB /* LanguageActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA142591DE29D530048D3EB /* LanguageActions.swift */; };
+		DDA4384E1DDFBDCE004B9015 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDA4384D1DDFBDCE004B9015 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDA438531DDFBDCE004B9015 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA438521DDFBDCE004B9015 /* Messages.framework */; };
+		DDA438561DDFBDCE004B9015 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA438551DDFBDCE004B9015 /* MessagesViewController.swift */; };
+		DDA438591DDFBDCE004B9015 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA438571DDFBDCE004B9015 /* MainInterface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA4384F1DDFBDCE004B9015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA4383D1DDFBDCE004B9015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA4384C1DDFBDCE004B9015;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDA438621DDFBDCE004B9015 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDA4384E1DDFBDCE004B9015 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDA142571DE2848F0048D3EB /* DataContainerSingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataContainerSingletonClass.swift; sourceTree = "<group>"; };
+		DDA142591DE29D530048D3EB /* LanguageActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageActions.swift; sourceTree = "<group>"; };
+		DDA438431DDFBDCE004B9015 /* SwiftyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA438481DDFBDCE004B9015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA4384D1DDFBDCE004B9015 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA438521DDFBDCE004B9015 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		DDA438551DDFBDCE004B9015 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		DDA438581DDFBDCE004B9015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DDA4385C1DDFBDCE004B9015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28829A7F06F2FADD1F222F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4384A1DDFBDCE004B9015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA438531DDFBDCE004B9015 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA4383C1DDFBDCE004B9015 = {
+			isa = PBXGroup;
+			children = (
+				DDA438451DDFBDCE004B9015 /* SwiftyCode */,
+				DDA438541DDFBDCE004B9015 /* MessagesExtension */,
+				DDA438511DDFBDCE004B9015 /* Frameworks */,
+				DDA438441DDFBDCE004B9015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA438441DDFBDCE004B9015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA438431DDFBDCE004B9015 /* SwiftyCode.app */,
+				DDA4384D1DDFBDCE004B9015 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA438451DDFBDCE004B9015 /* SwiftyCode */ = {
+			isa = PBXGroup;
+			children = (
+				DDA438481DDFBDCE004B9015 /* Info.plist */,
+			);
+			path = SwiftyCode;
+			sourceTree = "<group>";
+		};
+		DDA438511DDFBDCE004B9015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA438521DDFBDCE004B9015 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA438541DDFBDCE004B9015 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DDA142571DE2848F0048D3EB /* DataContainerSingletonClass.swift */,
+				DDA142591DE29D530048D3EB /* LanguageActions.swift */,
+				DDA438551DDFBDCE004B9015 /* MessagesViewController.swift */,
+				DDA438571DDFBDCE004B9015 /* MainInterface.storyboard */,
+				DDA4385C1DDFBDCE004B9015 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA438421DDFBDCE004B9015 /* SwiftyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA438631DDFBDCE004B9015 /* Build configuration list for PBXNativeTarget "SwiftyCode" */;
+			buildPhases = (
+				DDA438411DDFBDCE004B9015 /* Resources */,
+				DDA438621DDFBDCE004B9015 /* Embed App Extensions */,
+				28829A7F06F2FADD1F222F2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA438501DDFBDCE004B9015 /* PBXTargetDependency */,
+			);
+			name = SwiftyCode;
+			productName = SwiftyCode;
+			productReference = DDA438431DDFBDCE004B9015 /* SwiftyCode.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		DDA4384C1DDFBDCE004B9015 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA4385F1DDFBDCE004B9015 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				DDA438491DDFBDCE004B9015 /* Sources */,
+				DDA4384A1DDFBDCE004B9015 /* Frameworks */,
+				DDA4384B1DDFBDCE004B9015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = DDA4384D1DDFBDCE004B9015 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA4383D1DDFBDCE004B9015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alec Dilanchian";
+				TargetAttributes = {
+					DDA438421DDFBDCE004B9015 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P3MU35B24V;
+						ProvisioningStyle = Automatic;
+					};
+					DDA4384C1DDFBDCE004B9015 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P3MU35B24V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDA438401DDFBDCE004B9015 /* Build configuration list for PBXProject "SwiftyCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA4383C1DDFBDCE004B9015;
+			productRefGroup = DDA438441DDFBDCE004B9015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA438421DDFBDCE004B9015 /* SwiftyCode */,
+				DDA4384C1DDFBDCE004B9015 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA438411DDFBDCE004B9015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA4384B1DDFBDCE004B9015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA438591DDFBDCE004B9015 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA438491DDFBDCE004B9015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA438561DDFBDCE004B9015 /* MessagesViewController.swift in Sources */,
+				DDA1425A1DE29D530048D3EB /* LanguageActions.swift in Sources */,
+				DDA142581DE2848F0048D3EB /* DataContainerSingletonClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA438501DDFBDCE004B9015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA4384C1DDFBDCE004B9015 /* MessagesExtension */;
+			targetProxy = DDA4384F1DDFBDCE004B9015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDA438571DDFBDCE004B9015 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA438581DDFBDCE004B9015 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA4385D1DDFBDCE004B9015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA4385E1DDFBDCE004B9015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA438601DDFBDCE004B9015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = P3MU35B24V;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alec-Dilanchian.SwiftyCode.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDA438611DDFBDCE004B9015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = P3MU35B24V;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alec-Dilanchian.SwiftyCode.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DDA438641DDFBDCE004B9015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3MU35B24V;
+				INFOPLIST_FILE = SwiftyCode/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alec-Dilanchian.SwiftyCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDA438651DDFBDCE004B9015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3MU35B24V;
+				INFOPLIST_FILE = SwiftyCode/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alec-Dilanchian.SwiftyCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA438401DDFBDCE004B9015 /* Build configuration list for PBXProject "SwiftyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA4385D1DDFBDCE004B9015 /* Debug */,
+				DDA4385E1DDFBDCE004B9015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA4385F1DDFBDCE004B9015 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA438601DDFBDCE004B9015 /* Debug */,
+				DDA438611DDFBDCE004B9015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA438631DDFBDCE004B9015 /* Build configuration list for PBXNativeTarget "SwiftyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA438641DDFBDCE004B9015 /* Debug */,
+				DDA438651DDFBDCE004B9015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA4383D1DDFBDCE004B9015 /* Project object */;
+}
